@@ -11,6 +11,7 @@
 
 int m = 1;
 int x = 2;
+int y = 10;
 
 int testCode(int x){
     int result = x * 10;
