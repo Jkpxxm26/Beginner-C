@@ -144,50 +144,50 @@
 
 // }
 
-int main()
-{
-    int score, grade;
-    float num, gpa;
+// int main()
+// {
+//     int score, grade;
+//     float num, gpa;
 
-    num = 2.5;
+//     num = 2.5;
 
-    printf("Input your score : ");
-    scanf("%d", &score);
-    printf("-----------------------------\n");
+//     printf("Input your score : ");
+//     scanf("%d", &score);
+//     printf("-----------------------------\n");
 
     
-    if (score >= 80 && score <= 100)
-    {
-        printf("Grade A+\n");
-        grade = 4;
-    }
+//     if (score >= 80 && score <= 100)
+//     {
+//         printf("Grade A+\n");
+//         grade = 4;
+//     }
 
-    else if (score >= 75 && score < 80)
-    {
-        printf("Grade A\n");
-        grade = 3.5;
-    }
+//     else if (score >= 75 && score < 80)
+//     {
+//         printf("Grade A\n");
+//         grade = 3.5;
+//     }
     
-    else if (score >= 60 && score < 75)
-    {
-        printf("Grade B+\n");
-        grade = 3;
-    }
+//     else if (score >= 60 && score < 75)
+//     {
+//         printf("Grade B+\n");
+//         grade = 3;
+//     }
 
-    else if (score >= 50 && score < 60)
-    {
-        printf("Grade B\n");
-        grade = 2.5;
-    }
+//     else if (score >= 50 && score < 60)
+//     {
+//         printf("Grade B\n");
+//         grade = 2.5;
+//     }
 
-    else
-    {
-        printf("You failed!\n");
-    }
+//     else
+//     {
+//         printf("You failed!\n");
+//     }
 
-    printf("-----------------------------\n");
-    printf("Gpa : %.2f", (grade * num + score) / 5.5);
+//     printf("-----------------------------\n");
+//     printf("Gpa : %.2f", (grade * num + score) / 5.5);
 
-    return 0;
+//     return 0;
     
-}
+// }
